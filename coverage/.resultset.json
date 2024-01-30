@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/user/blog_app/config/environment.rb": {
+      "/Users/user/api_test_app/config/environment.rb": {
         "lines": [
           null,
           null,
@@ -12,7 +12,7 @@
           1
         ]
       },
-      "/Users/user/blog_app/config/application.rb": {
+      "/Users/user/api_test_app/config/application.rb": {
         "lines": [
           null,
           null,
@@ -58,7 +58,7 @@
           null
         ]
       },
-      "/Users/user/blog_app/config/boot.rb": {
+      "/Users/user/api_test_app/config/boot.rb": {
         "lines": [
           null,
           null,
@@ -68,7 +68,7 @@
           1
         ]
       },
-      "/Users/user/blog_app/config/environments/test.rb": {
+      "/Users/user/api_test_app/config/environments/test.rb": {
         "lines": [
           null,
           null,
@@ -134,7 +134,7 @@
           null
         ]
       },
-      "/Users/user/blog_app/config/initializers/application_controller_renderer.rb": {
+      "/Users/user/api_test_app/config/initializers/application_controller_renderer.rb": {
         "lines": [
           null,
           null,
@@ -147,7 +147,7 @@
           null
         ]
       },
-      "/Users/user/blog_app/config/initializers/backtrace_silencers.rb": {
+      "/Users/user/api_test_app/config/initializers/backtrace_silencers.rb": {
         "lines": [
           null,
           null,
@@ -161,7 +161,7 @@
           1
         ]
       },
-      "/Users/user/blog_app/config/initializers/cors.rb": {
+      "/Users/user/api_test_app/config/initializers/cors.rb": {
         "lines": [
           null,
           null,
@@ -182,7 +182,7 @@
           null
         ]
       },
-      "/Users/user/blog_app/config/initializers/filter_parameter_logging.rb": {
+      "/Users/user/api_test_app/config/initializers/filter_parameter_logging.rb": {
         "lines": [
           null,
           null,
@@ -194,7 +194,7 @@
           null
         ]
       },
-      "/Users/user/blog_app/config/initializers/inflections.rb": {
+      "/Users/user/api_test_app/config/initializers/inflections.rb": {
         "lines": [
           null,
           null,
@@ -215,7 +215,7 @@
           null
         ]
       },
-      "/Users/user/blog_app/config/initializers/mime_types.rb": {
+      "/Users/user/api_test_app/config/initializers/mime_types.rb": {
         "lines": [
           null,
           null,
@@ -224,7 +224,7 @@
           null
         ]
       },
-      "/Users/user/blog_app/config/initializers/wrap_parameters.rb": {
+      "/Users/user/api_test_app/config/initializers/wrap_parameters.rb": {
         "lines": [
           null,
           null,
@@ -244,7 +244,7 @@
           null
         ]
       },
-      "/Users/user/blog_app/spec/factories/book.rb": {
+      "/Users/user/api_test_app/spec/factories/book.rb": {
         "lines": [
           null,
           null,
@@ -254,7 +254,7 @@
           null
         ]
       },
-      "/Users/user/blog_app/config/routes.rb": {
+      "/Users/user/api_test_app/config/routes.rb": {
         "lines": [
           null,
           null,
@@ -267,7 +267,7 @@
           null
         ]
       },
-      "/Users/user/blog_app/spec/controllers/articles_controller_spec.rb": {
+      "/Users/user/api_test_app/spec/controllers/articles_controller_spec.rb": {
         "lines": [
           null,
           null,
@@ -386,7 +386,7 @@
           null
         ]
       },
-      "/Users/user/blog_app/app/controllers/api/v1/articles_controller.rb": {
+      "/Users/user/api_test_app/app/controllers/api/v1/articles_controller.rb": {
         "lines": [
           null,
           null,
@@ -448,7 +448,7 @@
           null
         ]
       },
-      "/Users/user/blog_app/app/controllers/application_controller.rb": {
+      "/Users/user/api_test_app/app/controllers/application_controller.rb": {
         "lines": [
           null,
           null,
@@ -456,7 +456,7 @@
           null
         ]
       },
-      "/Users/user/blog_app/spec/models/article_spec.rb": {
+      "/Users/user/api_test_app/spec/models/article_spec.rb": {
         "lines": [
           null,
           null,
@@ -529,7 +529,7 @@
           null
         ]
       },
-      "/Users/user/blog_app/app/models/article.rb": {
+      "/Users/user/api_test_app/app/models/article.rb": {
         "lines": [
           null,
           null,
@@ -539,7 +539,7 @@
           null
         ]
       },
-      "/Users/user/blog_app/app/models/application_record.rb": {
+      "/Users/user/api_test_app/app/models/application_record.rb": {
         "lines": [
           null,
           null,
@@ -548,7 +548,7 @@
           null
         ]
       },
-      "/Users/user/blog_app/spec/requests/articles/create_spec.rb": {
+      "/Users/user/api_test_app/spec/requests/articles/create_spec.rb": {
         "lines": [
           null,
           null,
@@ -602,7 +602,7 @@
           null
         ]
       },
-      "/Users/user/blog_app/spec/requests/articles/destroy_spec.rb": {
+      "/Users/user/api_test_app/spec/requests/articles/destroy_spec.rb": {
         "lines": [
           null,
           null,
@@ -622,7 +622,7 @@
           null
         ]
       },
-      "/Users/user/blog_app/spec/requests/articles/update_spec.rb": {
+      "/Users/user/api_test_app/spec/requests/articles/update_spec.rb": {
         "lines": [
           null,
           null,
@@ -672,7 +672,7 @@
           null
         ]
       },
-      "/Users/user/blog_app/spec/routing/routing_spec.rb": {
+      "/Users/user/api_test_app/spec/routing/routing_spec.rb": {
         "lines": [
           null,
           null,
@@ -707,6 +707,6 @@
         ]
       }
     },
-    "timestamp": 1706614431
+    "timestamp": 1706618789
   }
 }
