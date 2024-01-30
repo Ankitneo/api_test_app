@@ -244,6 +244,14 @@
           null
         ]
       },
+      "/Users/user/blog_app/spec/factories/book.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/user/blog_app/config/routes.rb": {
         "lines": [
           null,
@@ -387,9 +395,9 @@
           null,
           null,
           1,
-          2,
+          3,
           null,
-          2,
+          3,
           null,
           null,
           null,
@@ -548,6 +556,13 @@
           1,
           1,
           1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
           null,
           null,
           null,
@@ -691,6 +706,6 @@
         ]
       }
     },
-    "timestamp": 1706609704
+    "timestamp": 1706613377
   }
 }

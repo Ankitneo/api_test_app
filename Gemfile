@@ -17,6 +17,7 @@ gem 'puma', '~> 5.0'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem 'factory_bot_rails'
 gem 'rspec-rails'
 gem 'rubocop-rails', require: false
 # Use Active Storage variant

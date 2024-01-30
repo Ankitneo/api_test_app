@@ -4,6 +4,12 @@ require './spec/spec_helper'
 require 'rspec/rails'
 
 RSpec.describe 'Articles', type: :request do
+  it 'get articles' do
+    get '/api/v1/articles'
+    expect(response).to have_http_status(:success)
+    expect(JSON.parse(response.body).size).to eq(Article.count)
+  end
+
   it 'valid article attributes' do
     post '/api/v1/articles', params: {
       article: {
