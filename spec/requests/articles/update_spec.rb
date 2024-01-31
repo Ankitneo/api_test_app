@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
 require './spec/spec_helper'
-require 'rspec/rails'
+require 'rails_helper'
 
 RSpec.describe 'Articles', type: :request do
-  let(:article) { Article.create(title: 'Valid Title', body: 'this is a test') }
+  let!(:article) { Article.create(title: 'Valid Title', body: 'this is a test') }
 
   it 'valid article attributes' do
     put "/api/v1/articles/#{article.id}", params: {

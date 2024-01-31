@@ -1,17 +1,18 @@
 # frozen_string_literal: true
 
 require './spec/spec_helper'
+require 'rails_helper'
 
 RSpec.describe Article, type: :model do
   context 'check article' do
     it 'checks article title' do
-      article = Article.create(title: 'hello', body: 'this is test')
+      article = create(:article)
       article1 = Article.find_by(id: article.id)
       expect(article.title).to eq(article1.title)
     end
 
     it 'checks article body' do
-      article = Article.create(title: 'hello', body: 'this is test')
+      article = create(:article)
       article1 = Article.find_by(id: article.id)
       expect(article.body).to eq(article1.body)
     end
@@ -37,7 +38,7 @@ RSpec.describe Article, type: :model do
 
     it 'increases the article count with a valid article' do
       expect do
-        Article.create(title: 'Valid Title', body: 'this is a test')
+        create(:article)
       end.to change(Article, :count).by(1)
     end
   end
@@ -50,7 +51,7 @@ RSpec.describe Article, type: :model do
     end
 
     it 'creates a valid article' do
-      article = Article.new(title: 'Valid Title new', body: 'Valid body')
+      article = build(:article)
       expect(article.valid?).to be_truthy
     end
 
@@ -62,7 +63,7 @@ RSpec.describe Article, type: :model do
 
     it 'increases the article count with a valid article' do
       expect do
-        Article.create(title: 'Title new', body: 'Valid Body')
+        create(:article)
       end.to change(Article, :count).by(1)
     end
   end

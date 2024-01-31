@@ -1,10 +1,13 @@
 # frozen_string_literal: true
 
 require './spec/spec_helper'
-require 'rspec/rails'
+require 'rails_helper'
 
 RSpec.describe 'Articles', type: :request do
   it 'get articles' do
+    article = create(:article)
+    expect(article.title).to eq('Sample Title Article')
+    expect(article.body).to eq('Sample Body')
     get '/api/v1/articles'
     expect(response).to have_http_status(:success)
     expect(JSON.parse(response.body).size).to eq(Article.count)

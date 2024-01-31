@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require './spec/spec_helper'
+require 'rails_helper'
 
 RSpec.describe 'Articles routing', type: :routing do
   it 'routes to api/v1/articles#index' do
